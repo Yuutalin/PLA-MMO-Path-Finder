@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+build_tools/.venv/
+
+# Build outputs and reports
+build/
+dist/
+*.spec
+build_tools/output/
+build_tools/reports/
+
+# Runtime logs and local diagnostics
+*.log
+startup.log
+runtime_errors.log
+offline_engine_setup.log
+build_report.txt
+
+# Local user data / settings
+settings.json
+settings.backup.json
+data/
+
+# Optional downloaded/custom Pokemon artwork (keep directory placeholders)
+static/pokemon/cache/*
+!static/pokemon/cache/.gitkeep
+static/pokemon/custom/*
+!static/pokemon/custom/.gitkeep
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
