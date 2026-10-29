@@ -1,0 +1,12 @@
+{
+  "app_version": "0.3.6",
+  "python_version": "3.13.1",
+  "z3_solver_version": "4.16.0",
+  "upstream_repository": "https://github.com/capitalism-sudo/pla-multi-checker-web",
+  "upstream_branch": "main",
+  "installed_at": "2026-10-26 09:50:58",
+  "candidate_mapping_complete": true,
+  "candidate_source": "upstream_bundle",
+  "license": "GPL-3.0",
+  "offline_calculation": true
+}
